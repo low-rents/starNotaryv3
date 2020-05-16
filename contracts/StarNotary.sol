@@ -17,9 +17,9 @@ contract StarNotary is ERC721 {
     string public name;
     string public symbol;
 
-    constructor(string memory _name, string memory _symbol) public {
-        name = _name;
-        symbol = _symbol;
+    constructor() public {
+        name = "Galacteuro";
+        symbol = "GTX";
     }
 
     // mapping the Star with the Owner Address
